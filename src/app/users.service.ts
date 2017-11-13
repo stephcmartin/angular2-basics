@@ -1,4 +1,4 @@
-export class UsersSerivce{
+export class UsersService{
   private registerUsers=['Steph', 'Harry', 'Waldo'];
 
   getUsers(){
