@@ -1,0 +1,8 @@
+<p>
+  I'm in the UsersComponent
+</p>
+<button (click)="showInfo = true">Show Info</button>
+<button (click)="onShowAlert">Show Alert</button>
+<p *ngIf="showInfo">Some Extra User Infomation</p>
+<p *ngFor="let user of users">{{ user }}</p>
+<p [ngStyle]="{'background-color': color}">This Is Green</p>
